@@ -1,4 +1,7 @@
 {
     "workbench.preferredHighContrastColorTheme": "Default High Contrast",
-    "workbench.preferredHighContrastLightColorTheme": "Default Dark+"
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+    "cSpell.words": [
+        "NAZMUL"
+    ]
 }
