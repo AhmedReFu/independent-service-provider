@@ -8,6 +8,7 @@ import './Header.css'
 
 const Header = () => {
     const [user] = useAuthState(auth);
+
     const handleSignOut = () => {
         signOut(auth);
     }
@@ -15,7 +16,7 @@ const Header = () => {
         <>
             <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Container>
-                    <Navbar.Brand className='fs-3' as={Link} to="/">Food For Home</Navbar.Brand>
+                    <Navbar.Brand className='fs-3' href="/#home">Food For Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

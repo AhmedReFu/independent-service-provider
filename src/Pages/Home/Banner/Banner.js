@@ -6,7 +6,7 @@ import banner3 from '../../../images/Banner/high-angle-fried-chicken-drumsticks.
 
 const Banner = () => {
     return (
-        <div>
+        <div id='home'>
             <Carousel>
                 <Carousel.Item>
                     <img

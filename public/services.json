@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Lunch",
+        "price": "500",
+        "description": "please buy and try my lunch service here will get many item and our food is healthy",
+        "img": "https://i.ibb.co/5Kxm6jD/goodeats-yqr-Ou5-VY09-Iq54-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Drink",
+        "price": "200",
+        "description": "here you will get fresh healthy jus",
+        "img": "https://i.ibb.co/94qVCMb/goodeats-yqr-Mc-P48-IRa7-Mo-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Breckfast",
+        "price": "300",
+        "description": "you can try our healthy item in morning",
+        "img": "https://i.ibb.co/2jTPqyN/mae-mu-PTdm4-YUtlo-Y-unsplash.jpg"
+    }
+]

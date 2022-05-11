@@ -50,23 +50,25 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto login-form'>
+        <div className='container '>
             <h2 className='text-primary text-center mb-5'>Please Login</h2>
-            <form onSubmit={handleSubmit}>
-                <input ref={emailRef} type="email" name='email' id='' placeholder='Email Address' required />
+            <div className='login-form'>
+                <form onSubmit={handleSubmit}>
+                    <input ref={emailRef} type="email" name='email' id='' placeholder='Email Address' required />
 
-                <input type="password" name="password" id="" placeholder='password' required />
+                    <input type="password" name="password" id="" placeholder='password' required />
 
-                <input
-                    type="submit"
-                    className='btn btn-primary w-50 mx-auto mt-2'
-                    value="Login" />
-                <p className='text-danger'>{error?.message}</p>
-            </form>
-            <p>New to Genius car? <Link to='/register' className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
-            <p>Forget Password? <button to='' className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
-            <SocialLogin></SocialLogin>
-            <ToastContainer />
+                    <input
+                        type="submit"
+                        className='btn btn-primary w-50 mx-auto mt-2'
+                        value="Login" />
+                    <p className='text-danger'>{error?.message}</p>
+                </form>
+                <p>New to Genius car? <Link to='/register' className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+                <p>Forget Password? <Link to='/login' className=' text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</Link></p>
+                <SocialLogin></SocialLogin>
+                <ToastContainer />
+            </div>
         </div>
     );
 };

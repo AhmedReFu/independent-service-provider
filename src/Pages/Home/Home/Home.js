@@ -5,10 +5,10 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <Banner></Banner>
+        <>
+            <Banner></Banner >
             <Services></Services>
-        </div>
+        </>
     );
 };
 
