@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Food For Home
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://home-of-foods.web.app/).
+
+## Firebase, React Bootstrap, React Router, etc.
+## It has used some Bootstrap and Row CSS.
+## It Include Firebase Google, Facebook, Github Authenticatin.
+## Email Verification and Reset Password System Add.
+## Use Tostfy System Protected Route not login and show toast please login
 
 ## Available Scripts
 
@@ -9,7 +15,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [Live Site Link](https://home-of-foods.web.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
